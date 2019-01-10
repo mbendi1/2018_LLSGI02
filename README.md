@@ -1,9 +1,10 @@
 # 2018_LLSGI02
-## Página HTML5 + CSS
-## Triau un tema que us interessi i creau-hi un lloc web d'una sola pàgina HTML i un full d'estil extern. Ha d'usar els elements següents.
+## Página HTML5 + CSS.
+## Triau un tema que us interessi i creau-hi un lloc web d'una sola pàgina HTML i un full d'estil extern. 
 
-### A) HTML
-- Etiquetes semàntiques d'HTML 5 (<header>,<footer>, <article>, <section>, <aside>...).
+### Ha d'usar els elements següents.
+### A) HTML.
+- Etiquetes semàntiques d'HTML 5 ("<header>",<footer>, <article>, <section>, <aside>...).
 - Regions desplegables amb <details> i <summary>.
 - Navegació interna amb <nav> i àncores. 
 - Llistes i taules.
