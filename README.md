@@ -4,7 +4,7 @@ Página HTML5 + CSS
 Triau un tema que us interessi i creau-hi un lloc web d'una sola pàgina HTML i un full d'estil extern. Ha d'usar els elements següents.
 
 HTML
-Etiquetes semàntiques d'HTML 5 ( <header>,<footer>, <article>, <section>, <aside>...)
+Etiquetes semàntiques d'HTML 5 (<header>,<footer>, <article>, <section>, <aside>...)
 Regions desplegables amb <details> i <summary>.
 Navegació interna amb <nav> i àncores. 
 Llistes i taules.
