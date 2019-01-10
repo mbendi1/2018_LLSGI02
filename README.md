@@ -4,24 +4,24 @@
 
 ### Ha d'usar els elements següents.
 ### A) HTML.
-- Etiquetes semàntiques d'HTML 5 ("<header>",<footer>, <article>, <section>, <aside>...).
-- Regions desplegables amb <details> i <summary>.
-- Navegació interna amb <nav> i àncores. 
+- Etiquetes semàntiques d'HTML 5 (**header, footer, article, section, <side...**).
+- Regions desplegables amb **details** i **summary**.
+- Navegació interna amb **nav** i **àncores**. 
 - Llistes i taules.
 - Material multimèdia (imatge i vídeo).
 
 ### B) CSS
-Text: mida de la font, tipus de lletra.
-Color de fons als títols h1, h2...
-Model de caixa (padding, border, margin, outline).
-Vores arrodonides en alguns elements.
-Pseudo-classes dels enllaços.
+- Text: mida de la font, tipus de lletra.
+- Color de fons als títols h1, h2...
+- Model de caixa (padding, border, margin, outline).
+- Vores arrodonides en alguns elements.
+- Pseudo-classes dels enllaços.
 
 ### C) Puntuació
-6 punts. Totes les especificacions anteriors.
-1 punt. Validació HTML a https://validator.w3.org/.
-1 punt. Validació CSS a https://jigsaw.w3.org/css-validator/.
-2 punts. Elements avançats, com ara gràfics SVG, <canvas> o animacions i transicions.
+- 6 punts. Totes les especificacions anteriors.
+- 1 punt. Validació HTML a https://validator.w3.org/.
+- 1 punt. Validació CSS a https://jigsaw.w3.org/css-validator/.
+- 2 punts. Elements avançats, com ara gràfics SVG, <canvas> o animacions i transicions.
 
 Pujau els vostres arxius a github i creau-hi un accés amb qualque servei com https://raw.githack.com o  https://pages.github.com/.
 
