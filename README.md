@@ -24,3 +24,9 @@
 - 2 punts. Elements avançats, com ara gràfics SVG, <canvas> o animacions i transicions.
 
 Pujau els vostres arxius a github i creau-hi un accés amb qualque servei com https://raw.githack.com o  https://pages.github.com/.
+
+
+NOTA: Debido a un error de síntaxis, por unos cambios realizados a última hora (ERROR), me aparecieron una serie de errores al validar que no pude solventar por el retardo que hay entre que se suben las páginas y se actualizan los datos. Por ello he creado los siguientes archivos:
+- lmsgi_02.html con las correcciones de síntaxis. (faltaba cerrar algún div).
+- stylesheet2.css (faltaba poner la unidad de medida a algunos números (px).
+Por eso aparecen dos archivos .html y dos .css, pero unos son los entregados antes de la hora límite, y los otros con posterioridad.
