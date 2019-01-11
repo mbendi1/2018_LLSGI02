@@ -1,0 +1,209 @@
+/*-- Tipos de Letra --*/
+P { 
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	color : white;
+} 
+
+H1 { 
+	font-size : 32pt; 
+	font-family : arial; 
+	text-decoration : none; 
+	text-align: center;
+	background-color: #44e0c6;
+	border-style: solid;
+	border-color: black;
+	color : #F8F8FF;
+} 
+H2 { 
+	font-size : 22pt; 
+	font-family : arial; 
+	text-align: center;
+	text-decoration : underline; 
+	color : #F8F8FF; 
+} 
+H3 { 
+	font-size : 20pt; 
+	font-family : arial; 
+	text-align: center;
+	text-decoration : underline; 
+	color : #F8F8FF;
+}
+H4 { 
+	font-size : 16pt; 
+	font-family : arial; 
+	text-decoration : none; 
+	color : white;
+}
+
+h5 { 
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	text-align: center;
+	color : white;
+} 
+
+/*-- Para los colores se emplea como ejemplo dos formas de hacerlo, con su nombre y en hexadecimal --*/
+
+/*-- Cuerpo de la página --*/
+
+body, html {
+	height:100%;padding:0px;margin:0px;
+	background-image: url(../multimedia/matrix.jpg);
+}
+
+#superior {
+	background-color:#3F51A0;
+	height:150px;
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index: 10;
+}
+
+* {
+list-style:none;
+text-decoration:none;
+margin:0;
+padding:0;  /* Evitar que los menus se desplacen a derecha */
+}
+  
+#MenuDesplegable {
+top: 140px;
+height: 150px;
+position: relative;
+text-align: center;
+margin: 20px auto;  /* para centrar el div */
+z-index: 9;
+}
+
+.desplegable {
+     display: inline-block;   /* para centrar el menú en la pantalla  */
+}
+
+.desplegable li {
+     float:left;  /*  para que el menu sea horizontal */
+}
+
+.desplegable li ul li {
+     float: none;  /* para que el menu se despliegue en vertical */
+}
+
+.desplegable li ul {
+     display:none;  /* el desplegable no es visible por defecto */
+}
+
+.desplegable li:hover ul {
+     display:block;  /* al pasar sobre el menu se hace visible  */
+}
+
+.desplegable li a {
+     background:black;
+     color:#FFF;
+     display:block;
+     padding:14px 14px;
+     margin:2px;
+}
+
+.desplegable li a:hover {
+     background: red; 
+} 
+
+
+/*
+ 
+*/
+#LadoIzquierdo {
+/*	background-color:#539FCB;	*/
+	position:absolute;
+	top: 250px;
+	float:left;
+	width: 75%;
+	height: 1100px;
+}
+
+#LadoDerecho {
+	background-color: black;
+	position:absolute;
+/*	width:45%;	*/
+	top: 250px;
+	right: 0;
+	width: 25%;
+	height: 1100px;
+}
+
+#base {
+	background-color:#30DFD7;
+	height:50px;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	text-align:left;
+	font-size:17px;
+	font-family : arial;
+}
+
+
+/*-- Diseño de la Tabla --*/
+
+table, th, td {
+	margin:auto;
+	border: 1px solid black;
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	text-align : center; 
+	color :  black;
+}
+
+th {
+background-color: #4CAF50;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: white;
+}	
+
+tr:nth-child(odd) {
+background-color: #DCDCDC;
+}	
+
+/* -- Imágenes -- */
+img{
+display:block;
+margin:auto;
+}
+
+/* -- Alineación de los textos -- */
+.centrado { 
+text-align:center; 
+}
+.izquierda { 
+text-align:left; 
+}
+.derecha { 
+text-align:right; 
+}	
+
+/* -- Enlaces -- */
+/* -- link -- */
+a:link {
+	color: red;
+	text-decoration:none;
+	font-size: 24px;
+	font-family: arial;
+	text-align: center;
+	display:block;
+}
+
+/* -- visited link -- */
+a:visited {color: green;}
+
+/* -- mouse over link -- */
+a:hover {color: yellow;}
+
+/* -- selected link -- */
+a:active {color: blue;}

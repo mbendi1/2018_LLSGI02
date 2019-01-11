@@ -4,7 +4,7 @@
 
 ### Ha d'usar els elements següents.
 ### A) HTML.
-- Etiquetes semàntiques d'HTML 5 (**header, footer, article, section, <side...**).
+- Etiquetes semàntiques d'HTML 5 (**header, footer, article, section, side...**).
 - Regions desplegables amb **details** i **summary**.
 - Navegació interna amb **nav** i **àncores**. 
 - Llistes i taules.

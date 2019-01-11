@@ -4,82 +4,164 @@
 	<title> INFOSEC Spain </title>
 	<meta name="description" content ="Punto de seguridad en la información. Consejos y trucos" />
 	<meta name="keywords" content="">
-	<link rel="STYLESHEET" type="text/css" href="css/stylesheet.css"> 
+	<link rel="STYLESHEET" type="text/css" href="css/stylesheet.css">
 </head>
 
 <!-- Contenido -->
-
 <body>
 
 <!-- Cabecera --> 
-
-<div id="tope">
+<div id="superior">
 	<h1>INFOSEC SPAIN</h1>
 	<h3>Punto de seguridad en la información. Consejos y trucos</h3>
 	<h4>Aquí podrás encontrar todas las noticias y recursos disponibles para mejorar la seguridad de tu ordenador y la de tu red.</h4>
-
 </div>
 
 <!-- Cuerpo -->
+<div id="MenuDesplegable">
+	<ul class="desplegable">
+		<li><a href="Home">Inicio</a> </li>
+		<li><a href="estadisticas"> Estadísticas </a>
+           <ul>
+                 <li> <a href="nacionales"> Nacionales </a> </li>
+                 <li><a href="internacionales"> Internacionales </a></li>
+			</ul>
+		</li>
+		<li> <a href="noticias">Noticias </a></li>
+		<li> <a href="apartadod"> Trucos y consejos </a>
+           <ul>          
+                 <li> <a href="personal"> Seguridad Personal </a> </li>
+                 <li> <a href="datos"> Seguridad en la Información </a></li>
+                 <li> <a href="red"> Seguridad en la Red </a>  </li>
+           </ul>
+		</li>
+		<li> <a href="Links"> Enlaces </a> </li>
+	</ul>
+</div> 
 
-<div id="bloqueI">
-		<h3>Tabla</h3>
+
+<div id="LadoIzquierdo">
+	<h3>Radiografía del cibercrimen en España</h3>
 	<table>
 		<tr>	
-			<th>CabeceraColumna1</th>
-			<th>CabeceraColumna2</th> 
-			<th>CabeceraColumna3</th>
+			<th>Incidentes Gestionados</th>
+			<th>2014</th> 
+			<th>2015</th>
 		</tr>
-
 		<tr>
-			<td>Fila1Columna1</td>
-			<td>Fila1Columna2</td> 
-			<td>Fila1Columna3</td>
-
+			<td>Acceso no autorizado</td>
+			<td>6.785</td> 
+			<td>16.054</td>
 		</tr>
-
 		<tr>
-			<td>Fila2Columna1</td>
-			<td>Fila2Columna2</td> 
-			<td>Fila2Columna3</td>
+			<td>Fraude</td>
+			<td>4.274</td> 
+			<td>13.410</td>
 		</tr>
-
 		<tr>
-			<td>Fila3Columna1</td>
-			<td>Fila3Columna2</td> 
-			<td>Fila31Columna3</td>
+			<td>Virus, Troyanos, Gusanos, Spyware</td>
+			<td>1.745</td> 
+			<td>15.177</td>
 		</tr>
-
 		<tr>
-			<td>Fila4Columna1</td>
-			<td>Fila4Columna2</td> 
-			<td>Fila4Columna3</td>
+			<td>Spam</td>
+			<td>1.006</td> 
+			<td>1.275</td>
+		</tr>
+		<tr>
+			<td>Denegación de Servicio</td>
+			<td>788</td> 
+			<td>794</td>
+		</tr>
+		<tr>
+			<td>Escaneos de Red</td>
+			<td>426</td> 
+			<td>335</td>
+		</tr>
+	<tr>
+			<td>Robos de Información</td>
+			<td>80</td> 
+			<td>26</td>
+		</tr>
+		<tr>
+			<td>Otros</td>
+			<td>2.781</td> 
+			<td>2.905</td>
 		</tr>
 	</table>
+	<table>
+		<tr>	
+			<th>Incidentes en Relación con las infraestructuras críticas</th>
+			<th>2014</th> 
+			<th>2015</th>
+		</tr>
+		<tr>
+			<td>Acceso no autorizado</td>
+			<td>2</td> 
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Fraude</td>
+			<td>6</td> 
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>Virus, Troyanos, Gusanos, Spyware</td>
+			<td>31</td> 
+			<td>75</td>
+		</tr>
+		<tr>
+			<td>Spam</td>
+			<td>0</td> 
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>Denegación de Servicio</td>
+			<td>2</td> 
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>Escaneos de Red</td>
+			<td>1</td> 
+			<td>7</td>
+		</tr>
+	<tr>
+			<td>Robos de Información</td>
+			<td>9</td> 
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Otros</td>
+			<td>12</td> 
+			<td>13</td>
+		</tr>
+	</table>
+	<h5> Fuente: </h5>
+	<h5> 
+		<a href="https://www.elmundo.es/espana/2016/07/04/577965b1e5fdead05c8b45cb.html" class="link" target="_blank">El Mundo</a>
+	</h5>
 </div>
 
-<div id="bloqueD">
+<div id="LadoDerecho">
 
 <ul>
+	<h2>ENLACES UTILES</h2>
+	<p></p>
    	<li>
-		<h2>INCIBE.</h2>
-		<p>El Instituto Nacional de Ciberseguridad de España (INCIBE), anteriormente Instituto Nacional de Tecnologías de la Comunicación, es una sociedad dependiente del Ministerio de Economía y Empresa a través de la Secretaría de Estado para el Avance Digital y consolidada como entidad de referencia para el desarrollo de la ciberseguridad y de la confianza digital de ciudadanos, red académica y de investigación, profesionales, empresas y especialmente para sectores estratégicos.</p>
-		<img width="100" height="100" src="multimedia/incibe.png" alt="INCIBE">
+<!-- 	<h3>INCIBE.</h3> -->
+<!--	<p>El Instituto Nacional de Ciberseguridad de España (INCIBE), anteriormente Instituto Nacional de Tecnologías de la Comunicación, es una sociedad dependiente del Ministerio de Economía y Empresa a través de la Secretaría de Estado para el Avance Digital y consolidada como entidad de referencia para el desarrollo de la ciberseguridad y de la confianza digital de ciudadanos, red académica y de investigación, profesionales, empresas y especialmente para sectores estratégicos.</p> -->
+		<img width="100" height="50" src="multimedia/incibe.png" alt="INCIBE">
 		<a href="https://www.incibe.es/" class="link" target="_blank">Institudo Nacional de Ciberseguridad</a>
 	</li>
 
   	<li>
-		<h2>DSN</h2>
-		<p>Departamento de Seguridad Nacional.</p>
-		<img width="100" height="100" src="multimedia/DSN.png" alt="DSN">	
+		<img width="100" height="50" src="multimedia/DSN.png" alt="DSN">	
 		<a href="http://www.dsn.gob.es/es/sistema-seguridad-nacional/qué-es-seguridad-nacional/ámbitos-seguridad-nacional/ciberseguridad" class="link" target="_blank">Departamento de Seguridad Nacional</a>
 	</li>
 
    	<li>
-			<h2>OSI</h2>
-			<p>Oficina de Seguridad del Internauta</p>
-		<img width="200" height="100" src="multimedia/OSI.png" alt="OSI">
-			<a href="https://www.osi.es/es" target="_blank">Oficina de Seguridad del Internauta</a>
+		<img width="100" height="50" src="multimedia/OSI.png" alt="OSI">
+		<a href="https://www.osi.es/es" target="_blank">Oficina de Seguridad del Internauta</a>
 	</li>
 </ul>
 </div>
