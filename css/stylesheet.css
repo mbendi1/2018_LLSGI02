@@ -104,9 +104,72 @@ h5 {
     text-align:center; 
     clear: both; 
 }
- 
-/* BOTON DESPLEGABLE */
 /* MENU DESPLEGABLE */
+#menu{
+ background-color:#414141;
+ list-style:none;
+ width:auto;
+ position:relative;
+ display:block;
+ height:36px;
+ }
+
+#menu li{
+
+ float:left;
+
+display:block;
+ position:relative;
+ }
+
+#menu li a{
+ color:#fff;
+ text-decoration:none;
+ font-family:Helvetica, Arial, sans-serif;
+ font-size:14px;
+ line-height:1.3em;
+ padding:10px 14px 8px 16px;
+ display:block;
+ }
+
+#menu li ul{
+ width:120px;
+ background:#F8F8F8;
+ border:1px #ccc solid;
+ display:none; 
+ position:absolute;
+ z-index:999;
+ margin-top:0px;
+ }
+#menu li ul li{
+ width:100%;
+ list-style:none;
+ display:block;
+ }
+
+#menu li ul li a{
+ color:#21759b;
+ font-size:14px;
+ line-height:1.3em;
+ display:block;
+ font-weight:normal;
+ padding:8px
+ }
+
+#menu li ul li a:hover{
+ background-color:#FFF;
+ color:#444;
+ text-decoration:underline;
+ }
+#menu li:hover ul{
+ display:block;
+ }
+
+
+
+
+
+/* BOTON DESPLEGABLE */
 .dropbtn {
     background-color: black;
     color: white;
