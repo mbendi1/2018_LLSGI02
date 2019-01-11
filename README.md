@@ -30,3 +30,9 @@ NOTA: Debido a un error de síntaxis, por unos cambios realizados a última hora
 - lmsgi_02.html con las correcciones de síntaxis. (faltaba cerrar algún div).
 - stylesheet2.css (faltaba poner la unidad de medida a algunos números (px).
 Por eso aparecen dos archivos .html y dos .css, pero unos son los entregados antes de la hora límite, y los otros con posterioridad.
+
+Solo me queda un error de html, que no tengo ni ieda de porque es, porque aparentemente todo está bien..... algo no veo.
+
+Error: Stray start tag footer.
+From line 192, column 1; to line 192, column 8
+</body>↩↩↩<footer>↩<div 
