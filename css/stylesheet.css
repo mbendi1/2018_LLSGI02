@@ -193,14 +193,14 @@ text-align:right;
 a:link {
 	color: white;
 	text-decoration:none;
-	font-size: 24px;
+	font-size: 12px;
 	font-family: arial;
 	text-align: center;
 	display:block;
 }
 
 /* -- visited link -- */
-a:visited {color: red;}
+a:visited {color: white;}
 
 /* -- mouse over link -- */
 a:hover {color: yellow;}
