@@ -191,7 +191,7 @@ text-align:right;
 /* -- Enlaces -- */
 /* -- link -- */
 a:link {
-	color: red;
+	color: white;
 	text-decoration:none;
 	font-size: 24px;
 	font-family: arial;
@@ -200,7 +200,7 @@ a:link {
 }
 
 /* -- visited link -- */
-a:visited {color: green;}
+a:visited {color: red;}
 
 /* -- mouse over link -- */
 a:hover {color: yellow;}
