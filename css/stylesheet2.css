@@ -1,0 +1,276 @@
+/*-- Tipos de Letra --*/
+P { 
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	color : white;
+} 
+H1 { 
+	font-size : 32pt; 
+	font-family : arial; 
+	text-decoration : none; 
+	text-align: center;
+	background-color: #44e0c6;
+	border-style: solid;
+	border-color: black;
+	color : #F8F8FF;
+} 
+H2 { 
+	font-size : 22pt; 
+	font-family : arial; 
+	text-align: center;
+	text-decoration : underline; 
+	color : #F8F8FF; 
+} 
+H3 { 
+	font-size : 20pt; 
+	font-family : arial; 
+	text-align: center;
+	text-decoration : underline; 
+	background-color: #000000;
+	color : white;
+}
+H4 { 
+	font-size : 16pt; 
+	font-family : arial; 
+	text-decoration : none; 
+	color : white;
+}
+
+h5 { 
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	text-align: center;
+	color : white;
+} 
+
+/* MAQUETACION DE LA PAGINA */
+ BODY { 
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    margin: 10px 0px 10px 0px; 
+    text-align: center; 
+    background-color: black; 
+} 
+#contenedor{ 
+    text-align: left; 
+    width: 770px; 
+    margin: auto; 
+} 
+#cabecera{ 
+    background-color: #d0d0ff; 
+    color: #333300; 
+    font-size:12pt; 
+    font-weight: bold; 
+    padding: 3px 3px 3px 10px; 
+} 
+#cuerpo{ 
+    margin: 10px 0px 10px 0px; 
+} 
+#lateral{ 
+    width: 10%; 
+    background-color: #999999; 
+    float:left; 
+} 
+#lateral ul{ 
+    margin : 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px; 
+    list-style: none; 
+} 
+#lateral li{ 
+    background-color: #ffffcc; 
+    margin: 2px 2px 2px 2px; 
+    padding: 2px 2px 2px 2px; 
+    font-weight: bold; 
+} 
+#lateral a{ 
+    color: #3333cc; 
+    text-decoration: none; 
+} 
+#otrolado{ 
+   	width: 20%; 
+   	float: right;	
+} 
+#principal{ 
+    margin-left: 10%; 
+ /*   background-color: #ffffff; */
+	background-image: url(../multimedia/THE-MATRIX.jpg);
+    padding: 4px 4px 4px 4px; 
+    width: 70%; 
+} 
+#pie{ 
+    background-color: #cccccc; 
+    padding: 3 10 3 10px; 
+    text-align:center; 
+    clear: both; 
+}
+/* MENU DESPLEGABLE */
+#menu{
+ background-color:#414141;
+ list-style:none;
+ width:auto;
+ position:relative;
+ display:block;
+ height:36px;
+ }
+
+#menu li{
+
+ float:left;
+
+display:block;
+ position:relative;
+ }
+
+#menu li a{
+ color:#fff;
+ text-decoration:none;
+ font-family:Helvetica, Arial, sans-serif;
+ font-size:14px;
+ line-height:1.3em;
+ padding:10px 14px 8px 16px;
+ display:block;
+ }
+
+#menu li ul{
+ width:120px;
+ background:#F8F8F8;
+ border:1px #ccc solid;
+ display:none; 
+ position:absolute;
+ z-index:999;
+ margin-top:0px;
+ }
+#menu li ul li{
+ width:100%;
+ list-style:none;
+ display:block;
+ }
+
+#menu li ul li a{
+ color:#21759b;
+ font-size:14px;
+ line-height:1.3em;
+ display:block;
+ font-weight:normal;
+ padding:8px
+ }
+
+#menu li ul li a:hover{
+ background-color:#FFF;
+ color:#444;
+ text-decoration:underline;
+ }
+#menu li:hover ul{
+ display:block;
+ }
+
+
+
+
+
+/* BOTON DESPLEGABLE */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {
+	background-color: white;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: grey;
+}
+
+/* TABLA*/
+/*-- Diseño de la Tabla --*/
+table, th, td {
+	margin:auto;
+	border: 1px solid black;
+	font-size : 12pt; 
+	font-family : arial; 
+	font-weight : normal; 
+	text-align : center; 
+	color :  black;
+}
+
+th {
+background-color: #4CAF50;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: white;
+}	
+
+tr:nth-child(odd) {
+background-color: #DCDCDC;
+}	
+
+/* -- Imágenes -- */
+img{
+display:block;
+margin:auto;
+}
+
+/* -- Alineación de los textos -- */
+.centrado { 
+text-align:center; 
+}
+.izquierda { 
+text-align:left; 
+}
+.derecha { 
+text-align:right; 
+}	
+
+/* -- Enlaces -- */
+/* -- link -- */
+a:link {
+	color: white;
+	text-decoration:none;
+	font-size: 12px;
+	font-family: arial;
+	text-align: center;
+	display:block;
+}
+
+/* -- visited link -- */
+a:visited {color: white;}
+
+/* -- mouse over link -- */
+a:hover {color: yellow;}
+
+/* -- selected link -- */
+a:active {color: blue;}
+ 
+ 
+
+
+
