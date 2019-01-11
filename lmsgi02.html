@@ -1,9 +1,10 @@
 <!DOCTYPE html> 
 <html lang="es">
 <head> 
-	<title> INFOSEC Spain </title>
+	<title><h1>INFOSEC Spain </h1></title>
 	<meta name="description" content ="Punto de seguridad en la información. Consejos y trucos" />
 	<meta name="keywords" content="">
+	<meta charset="UTF-8">
 	<link rel="STYLESHEET" type="text/css" href="css/stylesheet.css">
 </head>
 
@@ -11,85 +12,109 @@
 <body>
 
 <!-- Cabecera --> 
-<div id="superior">
+<div id="cabecera">
 	<h1>INFOSEC SPAIN</h1>
-	<h3>Punto de seguridad en la información. Consejos y trucos</h3>
-	<h4>Aquí podrás encontrar todas las noticias y recursos disponibles para mejorar la seguridad de tu ordenador y la de tu red.</h4>
+	<h4>Punto de seguridad en la información. Consejos y trucos</h4>
+	<p>Aquí podrás encontrar todas las noticias y recursos disponibles para mejorar la seguridad de tu ordenador y la de tu red.</p>
 </div>
-
 <!-- Cuerpo -->
-<div id="MenuDesplegable">
-	<ul class="desplegable">
-		<li><a href="Home">Inicio</a> </li>
-		<li><a href="estadisticas"> Estadísticas </a>
-           <ul>
-                 <li> <a href="nacionales"> Nacionales </a> </li>
-                 <li><a href="internacionales"> Internacionales </a></li>
-			</ul>
-		</li>
-		<li> <a href="noticias">Noticias </a></li>
-		<li> <a href="apartadod"> Trucos y consejos </a>
-           <ul>          
-                 <li> <a href="personal"> Seguridad Personal </a> </li>
-                 <li> <a href="datos"> Seguridad en la Información </a></li>
-                 <li> <a href="red"> Seguridad en la Red </a>  </li>
-           </ul>
-		</li>
-		<li> <a href="Links"> Enlaces </a> </li>
-	</ul>
-</div> 
+<div id="cuerpo">
+	<div id="lateral">
+		<ul>
+		<div class="dropdown">
+			<button class="dropbtn">PRUEBA TEST 1</button>
+				<li><a href="Home">Inicio</a> </li>
+				<li><a href="estadisticas"> Estadísticas </a>
+				<ul>
+					<li> <a href="nacionales"> Nacionales </a> </li>
+					<li><a href="internacionales"> Internacionales </a></li>
+				</ul>
+				</li>
+				<li> <a href="noticias">Noticias </a></li>
+				<li> <a href="apartadod"> Trucos y consejos </a>
+				<ul>          
+					<li> <a href="personal"> Seguridad Personal </a> </li>
+					<li> <a href="datos"> Seguridad en la Información </a></li>
+					<li> <a href="red"> Seguridad en la Red </a>  </li>
+				</ul>
+				</li>
+				<li> <a href="Links"> Enlaces </a> </li>
+		</div> 
+		</ul>
+	</div>
+	
+	<div id="otrolado">
+		<h2>ENLACES UTILES</h2>
+		<ul>
+			<li>
+<!-- 	<h3>INCIBE.</h3> -->
+<!--	<p>El Instituto Nacional de Ciberseguridad de España (INCIBE), anteriormente Instituto Nacional de Tecnologías de la Comunicación, es una sociedad dependiente del Ministerio de Economía y Empresa a través de la Secretaría de Estado para el Avance Digital y consolidada como entidad de referencia para el desarrollo de la ciberseguridad y de la confianza digital de ciudadanos, red académica y de investigación, profesionales, empresas y especialmente para sectores estratégicos.</p> -->
+				<img width="100" height="50" src="multimedia/incibe_logo.png" alt="INCIBE">
+				<a href="https://www.incibe.es/" class="link" target="_blank">Institudo Nacional de Ciberseguridad</a>
+			</li>
 
+			<li>
+				<img width="100" height="50" src="multimedia/dsn_logo.png" alt="DSN">	
+				<a href="http://www.dsn.gob.es/es/sistema-seguridad-nacional/qué-es-seguridad-nacional/ámbitos-seguridad-nacional/ciberseguridad" class="link" target="_blank">Departamento de Seguridad Nacional</a>
+			</li>
 
-<div id="LadoIzquierdo">
-	<h3>Radiografía del cibercrimen en España</h3>
-	<table>
-		<tr>	
-			<th>Incidentes Gestionados</th>
-			<th>2014</th> 
-			<th>2015</th>
-		</tr>
-		<tr>
-			<td>Acceso no autorizado</td>
-			<td>6.785</td> 
-			<td>16.054</td>
-		</tr>
-		<tr>
-			<td>Fraude</td>
-			<td>4.274</td> 
-			<td>13.410</td>
-		</tr>
-		<tr>
-			<td>Virus, Troyanos, Gusanos, Spyware</td>
-			<td>1.745</td> 
-			<td>15.177</td>
-		</tr>
-		<tr>
-			<td>Spam</td>
-			<td>1.006</td> 
-			<td>1.275</td>
-		</tr>
-		<tr>
-			<td>Denegación de Servicio</td>
-			<td>788</td> 
-			<td>794</td>
-		</tr>
-		<tr>
-			<td>Escaneos de Red</td>
-			<td>426</td> 
-			<td>335</td>
-		</tr>
-	<tr>
-			<td>Robos de Información</td>
-			<td>80</td> 
-			<td>26</td>
+			<li>
+				<img width="100" height="50" src="multimedia/osi_logo.png" alt="OSI">
+				<a href="https://www.osi.es" target="_blank">Oficina de Seguridad del Internauta</a>
+			</li>
+		</ul>
+	</div>	
+		
+	<div id="principal">
+		<h3>Radiografía del cibercrimen en España</h3>
+		<table>
+			<tr>	
+				<th>Incidentes Gestionados</th>
+				<th>2014</th> 
+				<th>2015</th>
+			</tr>
+			<tr>
+				<td>Acceso no autorizado</td>
+				<td>6.785</td> 
+				<td>16.054</td>
+			</tr>
+			<tr>
+				<td>Fraude</td>
+				<td>4.274</td> 
+				<td>13.410</td>
+			</tr>
+			<tr>
+				<td>Virus, Troyanos, Gusanos, Spyware</td>
+				<td>1.745</td> 
+				<td>15.177</td>
+			</tr>
+			<tr>
+				<td>Spam</td>
+				<td>1.006</td> 
+				<td>1.275</td>
+			</tr>
+			<tr>
+				<td>Denegación de Servicio</td>
+				<td>788</td> 
+				<td>794</td>
+			</tr>
+			<tr>
+				<td>Escaneos de Red</td>
+				<td>426</td> 
+				<td>335</td>
+			</tr>
+			<tr>
+				<td>Robos de Información</td>
+				<td>80</td> 
+				<td>26</td>
 		</tr>
 		<tr>
 			<td>Otros</td>
 			<td>2.781</td> 
 			<td>2.905</td>
 		</tr>
-	</table>
-	<table>
+		</table>
+		<table>
 		<tr>	
 			<th>Incidentes en Relación con las infraestructuras críticas</th>
 			<th>2014</th> 
@@ -125,7 +150,7 @@
 			<td>1</td> 
 			<td>7</td>
 		</tr>
-	<tr>
+		<tr>
 			<td>Robos de Información</td>
 			<td>9</td> 
 			<td>2</td>
@@ -135,38 +160,28 @@
 			<td>12</td> 
 			<td>13</td>
 		</tr>
-	</table>
+	</table>		
 	<h5> Fuente: </h5>
-	<h5> 
-		<a href="https://www.elmundo.es/espana/2016/07/04/577965b1e5fdead05c8b45cb.html" class="link" target="_blank">El Mundo</a>
-	</h5>
+	<h5> <a href="https://www.elmundo.es/espana/2016/07/04/577965b1e5fdead05c8b45cb.html" class="link" target="_blank">El Mundo</a></h5>
+	<picture>
+		<img src="multimedia/estadistica.jpg" alt="Estadística" style="width:50%;">
+	</picture> 
+	<h5> Fuente: </h5>
+	<h5> <a href="https://www.antena3.com/noticias/economia/aumentan-los-ciberataques-y-las-amenazas-de-daesh-en-espana_20170208589b81770cf207e09644d592.html" class="link" target="_blank">Antena 3 Noticias</a></h5>
+	</div>
 </div>
 
-<div id="LadoDerecho">
+</body>
+<div id="pie">
+<footer>
+	<h3>Esta parte corresponde al footer. Ejemplo de texto para poner.</h3>
+</footer>
 
-<h2>ENLACES UTILES</h2>
-<ul>
-	
-	<li>
-<!-- 	<h3>INCIBE.</h3> -->
-<!--	<p>El Instituto Nacional de Ciberseguridad de España (INCIBE), anteriormente Instituto Nacional de Tecnologías de la Comunicación, es una sociedad dependiente del Ministerio de Economía y Empresa a través de la Secretaría de Estado para el Avance Digital y consolidada como entidad de referencia para el desarrollo de la ciberseguridad y de la confianza digital de ciudadanos, red académica y de investigación, profesionales, empresas y especialmente para sectores estratégicos.</p> -->
-		<img width="100" height="50" src="multimedia/incibe_logo.png" alt="INCIBE">
-		<a href="https://www.incibe.es/" class="link" target="_blank">Institudo Nacional de Ciberseguridad</a>
-	</li>
-
-  	<li>
-		<img width="100" height="50" src="multimedia/dsn_logo.png" alt="DSN">	
-		<a href="http://www.dsn.gob.es/es/sistema-seguridad-nacional/qué-es-seguridad-nacional/ámbitos-seguridad-nacional/ciberseguridad" class="link" target="_blank">Departamento de Seguridad Nacional</a>
-	</li>
-
-   	<li>
-		<img width="100" height="50" src="multimedia/osi_logo.png" alt="OSI">
-		<a href="https://www.osi.es/es" target="_blank">Oficina de Seguridad del Internauta</a>
-	</li>
-</ul>
-</div>
-
-<div id="base">
+<details>
+	<summary><h5>No Copyright 2018. by Marcos Benito Diaz. Only for educational purposes.</h5></summary>
+	<p>Logos de INCIBE, DSN y OSI propiedad de sus respectivos propietarios; Fondo de pantalla propiedad de www.huffingtonpost.com</p>
+	<p>Estadística, propiedad de A3</p>
+	</details>
 <p>
 	<a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -175,5 +190,4 @@
     </a>
 </p>
 </div>
-</body>
 </html> 

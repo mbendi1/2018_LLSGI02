@@ -5,7 +5,6 @@ P {
 	font-weight : normal; 
 	color : white;
 } 
-
 H1 { 
 	font-size : 32pt; 
 	font-family : arial; 
@@ -28,7 +27,8 @@ H3 {
 	font-family : arial; 
 	text-align: center;
 	text-decoration : underline; 
-	color : #F8F8FF;
+	background-color: #000000;
+	color : white;
 }
 H4 { 
 	font-size : 16pt; 
@@ -45,109 +45,108 @@ h5 {
 	color : white;
 } 
 
-/*-- Para los colores se emplea como ejemplo dos formas de hacerlo, con su nombre y en hexadecimal --*/
-
-/*-- Cuerpo de la página --*/
-
-body, html {
-	height:100%;padding:0px;margin:0px;
-	background-image: url(../multimedia/matrix.jpg);
-}
-
-#superior {
-	background-color:#3F51A0;
-	height:150px;
-	width:100%;
-	position:fixed;
-	top:0px;
-	z-index: 10;
-}
-
-* {
-list-style:none;
-text-decoration:none;
-margin:0;
-padding:0;  /* Evitar que los menus se desplacen a derecha */
-}
-  
-#MenuDesplegable {
-top: 140px;
-height: 150px;
-position: relative;
-text-align: center;
-margin: 20px auto;  /* para centrar el div */
-z-index: 9;
-}
-
-.desplegable {
-     display: inline-block;   /* para centrar el menú en la pantalla  */
-}
-
-.desplegable li {
-     float:left;  /*  para que el menu sea horizontal */
-}
-
-.desplegable li ul li {
-     float: none;  /* para que el menu se despliegue en vertical */
-}
-
-.desplegable li ul {
-     display:none;  /* el desplegable no es visible por defecto */
-}
-
-.desplegable li:hover ul {
-     display:block;  /* al pasar sobre el menu se hace visible  */
-}
-
-.desplegable li a {
-     background:black;
-     color:#FFF;
-     display:block;
-     padding:14px 14px;
-     margin:2px;
-}
-
-.desplegable li a:hover {
-     background: red; 
+/* MAQUETACION DE LA PAGINA */
+ BODY { 
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    margin: 10 0 10 0px; 
+    text-align: center; 
+    background-color: black; 
 } 
-
-
-/*
+#contenedor{ 
+    text-align: left; 
+    width: 770px; 
+    margin: auto; 
+} 
+#cabecera{ 
+    background-color: #d0d0ff; 
+    color: #333300; 
+    font-size:12pt; 
+    font-weight: bold; 
+    padding: 3 3 3 10px; 
+} 
+#cuerpo{ 
+    margin: 10 0 10 0px; 
+} 
+#lateral{ 
+    width: 10%; 
+    background-color: #999999; 
+    float:left; 
+} 
+#lateral ul{ 
+    margin : 0 0 0 0px; 
+    padding: 0 0 0 0px; 
+    list-style: none; 
+} 
+#lateral li{ 
+    background-color: #ffffcc; 
+    margin: 2 2 2 2px; 
+    padding: 2 2 2 2px; 
+    font-weight: bold; 
+} 
+#lateral a{ 
+    color: #3333cc; 
+    text-decoration: none; 
+} 
+#otrolado{ 
+   	width: 20%; 
+   	float: right;	
+} 
+#principal{ 
+    margin-left: 10%; 
+ /*   background-color: #ffffff; */
+	background-image: url(../multimedia/THE-MATRIX.jpg);
+    padding: 4 4 4 4px; 
+    width: 70%; 
+} 
+#pie{ 
+    background-color: #cccccc; 
+    padding: 3 10 3 10px; 
+    text-align:center; 
+    clear: both; 
+}
  
-*/
-#LadoIzquierdo {
-/*	background-color:#539FCB;	*/
-	position:absolute;
-	top: 250px;
-	float:left;
-	width: 75%;
-	height: 1100px;
+/* BOTON DESPLEGABLE */
+/* MENU DESPLEGABLE */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {
+	background-color: white;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: grey;
 }
 
-#LadoDerecho {
-	background-color: black;
-	position:absolute;
-/*	width:45%;	*/
-	top: 250px;
-	right: 0;
-	width: 25%;
-	height: 1100px;
-}
-
-#base {
-	background-color:#30DFD7;
-	height:50px;
-	width:100%;
-	position:fixed;
-	bottom:0px;
-	text-align:left;
-	font-size:17px;
-	font-family : arial;
-}
-
-
+/* TABLA*/
 /*-- Diseño de la Tabla --*/
-
 table, th, td {
 	margin:auto;
 	border: 1px solid black;
@@ -207,3 +206,8 @@ a:hover {color: yellow;}
 
 /* -- selected link -- */
 a:active {color: blue;}
+ 
+ 
+
+
+
